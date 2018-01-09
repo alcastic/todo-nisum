@@ -32,4 +32,6 @@ dependencies {
 	runtime('org.springframework.boot:spring-boot-devtools')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
 }
